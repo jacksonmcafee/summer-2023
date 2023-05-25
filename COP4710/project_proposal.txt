@@ -1,0 +1,13 @@
+Title: GameDB
+
+Entities...
+
+GameStudio: stores information about a given game studio, can develop zero or many games
+
+GameDev: stores information about a given game developer, can develop zero or many games
+
+GamePublisher: stores information about a given game publisher, can publish zero or many games
+
+Game: stores information about a given game, must be have ONLY ONE GameStudio, must have at least one developer, must have at ONLY ONE GamePublisher
+
+GamePlayer: stores information about a given player, can play zero or many games
